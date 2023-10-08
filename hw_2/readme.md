@@ -12,4 +12,5 @@
 sudo sbin/start-master.sh
 sudo sbin/start-worker.sh spark://lightkeeper:7077
 ```
-Далее в jupyter noteebook подключаемся к данному кластеру.
+Далее в jupyter noteebook подключаемся к данному кластеру. 
+В web UI проверяем, что всё успешно запустилось: cluster_spark.png
