@@ -1,0 +1,63 @@
+Testing started at 09:29 ...
+
+
+
+
+
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+23/10/13 09:29:22 WARN Utils: Your hostname, lightkeeper resolves to a loopback address: 127.0.1.1; using 192.168.0.7 instead (on interface wlp3s0)
+23/10/13 09:29:22 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+23/10/13 09:29:22 INFO SparkContext: Running Spark version 3.5.0
+23/10/13 09:29:22 INFO SparkContext: OS info Linux, 5.15.133-1-MANJARO, amd64
+23/10/13 09:29:22 INFO SparkContext: Java version 11.0.20.1
+23/10/13 09:29:22 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+23/10/13 09:29:23 INFO ResourceUtils: ==============================================================
+23/10/13 09:29:23 INFO ResourceUtils: No custom resources configured for spark.driver.
+23/10/13 09:29:23 INFO ResourceUtils: ==============================================================
+23/10/13 09:29:23 INFO SparkContext: Submitted application: hw_3
+23/10/13 09:29:23 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+23/10/13 09:29:23 INFO ResourceProfile: Limiting resource is cpu
+23/10/13 09:29:23 INFO ResourceProfileManager: Added ResourceProfile id: 0
+23/10/13 09:29:23 INFO SecurityManager: Changing view acls to: ilia
+23/10/13 09:29:23 INFO SecurityManager: Changing modify acls to: ilia
+23/10/13 09:29:23 INFO SecurityManager: Changing view acls groups to:
+23/10/13 09:29:23 INFO SecurityManager: Changing modify acls groups to:
+23/10/13 09:29:23 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: ilia; groups with view permissions: EMPTY; users with modify permissions: ilia; groups with modify permissions: EMPTY
+23/10/13 09:29:24 INFO Utils: Successfully started service 'sparkDriver' on port 33855.
+23/10/13 09:29:24 INFO SparkEnv: Registering MapOutputTracker
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/home/ilia/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.5.0/spark-unsafe_2.13-3.5.0.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+23/10/13 09:29:24 INFO SparkEnv: Registering BlockManagerMaster
+23/10/13 09:29:24 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+23/10/13 09:29:24 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+23/10/13 09:29:24 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+23/10/13 09:29:24 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-220591df-7861-4919-beb2-5097d2fe5026
+23/10/13 09:29:24 INFO MemoryStore: MemoryStore started with capacity 992.4 MiB
+23/10/13 09:29:24 INFO SparkEnv: Registering OutputCommitCoordinator
+23/10/13 09:29:24 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+23/10/13 09:29:24 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+23/10/13 09:29:25 INFO Executor: Starting executor ID driver on host 192.168.0.7
+23/10/13 09:29:25 INFO Executor: OS info Linux, 5.15.133-1-MANJARO, amd64
+23/10/13 09:29:25 INFO Executor: Java version 11.0.20.1
+23/10/13 09:29:25 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+23/10/13 09:29:25 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@474179fa for default.
+23/10/13 09:29:25 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 39257.
+23/10/13 09:29:25 INFO NettyBlockTransferService: Server created on 192.168.0.7:39257
+23/10/13 09:29:25 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+23/10/13 09:29:25 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.0.7, 39257, None)
+23/10/13 09:29:25 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.0.7:39257 with 992.4 MiB RAM, BlockManagerId(driver, 192.168.0.7, 39257, None)
+23/10/13 09:29:25 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.0.7, 39257, None)
+23/10/13 09:29:25 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.0.7, 39257, None)
+(Found weights: ,1.4999999990546034,0.2999999990475868,-0.7000000009587474,1.4980942762822886E-9)
+
+
+
+
+Total MSE: 2.321060483405304E-19
+
+
+
+Process finished with exit code 0
